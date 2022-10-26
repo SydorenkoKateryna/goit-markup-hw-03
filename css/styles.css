@@ -198,12 +198,11 @@ img {
 /* Особливості */
 .flex-features {
   display: flex;
+  margin-left: -30px;
 }
 
-.flex-features > .item {
+.flex-features .item {
   width: calc((100% - 3 * 30px) / 4);
-}
-.flex-features .item + .item {
   margin-left: 30px;
 }
 
@@ -235,13 +234,11 @@ img {
 
 .flex-activities {
   display: flex;
+  margin-left: -30px;
 }
 
-.flex-activities > .item {
+.flex-activities .item {
   width: calc((100% - 2 * 30px) / 3);
-}
-
-.flex-activities .item + .item {
   margin-left: 30px;
 }
 
@@ -252,19 +249,17 @@ img {
 
 .flex-team {
   display: flex;
+  margin-left: -30px;
 }
 
-.flex-team > .item {
+.flex-team .item {
   width: calc((100% - 3 * 30px) / 4);
+  margin-left: 30px;
 
   background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-
-.flex-team .item + .item {
-  margin-left: 30px;
 }
 
 .worker-description {
@@ -299,15 +294,15 @@ img {
   margin-bottom: 20px;
 }
 
-.address {
+.address .item {
   width: 231px;
 }
 
-.address > .item:first-child {
+.address .item:first-child {
   margin-bottom: 9px;
 }
 
-.address > .item:nth-child(2) {
+.address .item:nth-child(2) {
   margin-bottom: 6px;
 }
 
