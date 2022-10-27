@@ -114,14 +114,18 @@ img {
 
 /* Шапка */
 .header {
-  border: 1px solid var(--header-border);
+  border-bottom: 1px solid var(--header-border);
 }
 
 .flex-header {
   display: flex;
+  align-items: center;
+}
+
+.header .logo,
+.header .logo-accent {
   padding-top: 24px;
   padding-bottom: 25px;
-  align-items: center;
 }
 
 .site-nav {
@@ -145,8 +149,8 @@ img {
 .site-nav .link,
 .contacts .link {
   display: block;
-  padding-top: 8px;
-  padding-bottom: 7px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   font-weight: 500;
   font-size: 14px;
